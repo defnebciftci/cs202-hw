@@ -1,5 +1,5 @@
 /**
-* Author: Defne Betül Çiftci
+* Author: Defne BetÃ¼l Ã‡iftci
 * ID: 21802635
 * Section: 2
 * Assignment: 2
@@ -160,7 +160,7 @@ double calculateInformationGain( const bool** data, const int* labels,const int 
 
 DecisionTreeNode* DecisionTree::decideOnRoot( bool** data, const int* labels, const int numSamples, const int numFeatures, const bool* usedSamples,
                                              bool* parentNodes) {
-//usedSamples ekle, zeroData ve oneDatayý sil, getLesserý sil
+//usedSamples ekle, zeroData ve oneDatayÃ½ sil, getLesserÃ½ sil
     DecisionTreeNode* node = new DecisionTreeNode();
     double max = INT_MIN; //initialize max as the minimum number possible
     double temp = 0;
