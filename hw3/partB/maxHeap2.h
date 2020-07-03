@@ -1,4 +1,4 @@
-/** * Author: Defne Betül Çiftci
+/** * Author: Defne BetÃ¼l Ã‡iftci
 * ID: 21802635
 * Section: 1
 * Assignment: 3
@@ -14,7 +14,7 @@ public:
     void destroy();
     /**determines whether the queue is empty or not*/
     const bool isEmpty();
-    /**– returns the item in a priority queue with the highest
+    /**â€“ returns the item in a priority queue with the highest
     priority value, and deletes that item from the priority queue.*/
     Patient deleteHeap();
     void printHeap();
