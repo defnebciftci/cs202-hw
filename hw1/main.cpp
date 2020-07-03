@@ -3,11 +3,6 @@
 #include "auxArrayFunctions.h"
 #include <ctime>
 using namespace std;
-//to avoid memory leak
-void deallocateArray( int*& arr, int size) {
-
-    delete[] arr;
-}
 
 void analysisHelper(int& compCount1, int& compCount2, int& compCount3,
                     double& timeQuiSorting, double& timeMerSorting, double& timeInsSorting,
